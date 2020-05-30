@@ -1,0 +1,35 @@
+{$= "text/html" @setMimeType $}
+<!DOCTYPE html>
+<html>
+<head>
+<style>
+body {background-color: #{$= "background" "FFFFFF" @tparamGet $}}
+</style>
+</head>
+<body>
+<table>
+<tr><th><a href="/scripts/osnovni.smscr">Osnovni</a></th></tr>
+<tr><th><a href="/scripts/brojPoziva.smscr">Broj poziva</a></th></tr>
+<tr><th><a href="/scripts/fibonaccih.smscr">Fibonacci</a></th></tr>
+<tr><th><a href="/hello">Hello</a></th></tr>
+<tr><th><a href="/cw">Circle</a></th></tr>
+</table>
+<hr>
+<form action = "/calc" method = "GET">
+Broj a:<br>
+<input type="text" name="a"><br>
+Broj b:<br>
+<input type="text" name = "b"><br>
+<input type="submit" value="Submit">
+</form>
+<hr>
+<form action = "/setbgcolor" method = "GET">
+Boja:<SELECT name="bgcolor">
+<OPTION value="FF0000">Red</OPTION>
+<OPTION value="FF4500">Orange</OPTION>
+<OPTION value="00FF00">Green</OPTION>
+<OPTION value="FFFFFF">White</OPTION>
+<input type="submit">
+</from>
+</body>
+</html>

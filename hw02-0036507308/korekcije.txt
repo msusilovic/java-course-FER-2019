@@ -1,0 +1,19 @@
+1. zadatak
+Skraæena metoda isEmpty().
+Dodan javadoc za Collection.
+
+2. zadatak
+Popravljen konstruktor ArrayIndexedCollection(Collection other, int initialCapacity) tako da se polje inicijalizira samo jednom.
+Promijenjena metoda toArray() tako da ukloni null vrijednosti na kraju polja.
+
+3. zadatak
+Promijenjena metoda insert tako da radi i za indekse 0 i size.
+
+4. zadatak
+Promijenjen StackDemo tako da ispisuje poruku ako se izraz ne može evaluirati, tj. ako sadrži nedozvoljene elemente.
+
+5. zadatak
+Promijenjen parse tako da radi za svaki unos kompleksnih brojeva.
+
+
+U testovima zamijenjen redoslijed actual i expected koji je bio obrnut.

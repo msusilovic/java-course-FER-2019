@@ -1,0 +1,20 @@
+-------------------------------------------------------------------------------
+Test set: hr.fer.zemris.java.hw03.prob1.Prob1Test
+-------------------------------------------------------------------------------
+Tests run: 17, Failures: 0, Errors: 4, Skipped: 12, Time elapsed: 0.157 s <<< FAILURE! - in hr.fer.zemris.java.hw03.prob1.Prob1Test
+testEmpty  Time elapsed: 0 s  <<< ERROR!
+java.lang.NullPointerException
+	at hr.fer.zemris.java.hw03.prob1.Prob1Test.testEmpty(Prob1Test.java:29)
+
+testGetReturnsLastNext  Time elapsed: 0 s  <<< ERROR!
+java.lang.NullPointerException
+	at hr.fer.zemris.java.hw03.prob1.Prob1Test.testGetReturnsLastNext(Prob1Test.java:38)
+
+testRadAfterEOF  Time elapsed: 0 s  <<< ERROR!
+java.lang.NullPointerException
+	at hr.fer.zemris.java.hw03.prob1.Prob1Test.testRadAfterEOF(Prob1Test.java:49)
+
+testNotNull  Time elapsed: 0 s  <<< ERROR!
+java.lang.NullPointerException
+	at hr.fer.zemris.java.hw03.prob1.Prob1Test.testNotNull(Prob1Test.java:14)
+

@@ -1,0 +1,120 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report.xsd" name="hr.fer.zemris.java.hw03.prob1.Prob1Test" time="0.157" tests="17" errors="4" skipped="12" failures="0">
+  <properties>
+    <property name="sun.desktop" value="windows"/>
+    <property name="awt.toolkit" value="sun.awt.windows.WToolkit"/>
+    <property name="java.specification.version" value="11"/>
+    <property name="sun.cpu.isalist" value="amd64"/>
+    <property name="sun.jnu.encoding" value="Cp1250"/>
+    <property name="java.class.path" value="C:\opjj\zadace\hw03-0036507308\target\test-classes;C:\opjj\zadace\hw03-0036507308\target\classes;C:\Users\Martina\.m2\repository\org\junit\jupiter\junit-jupiter-api\5.4.0\junit-jupiter-api-5.4.0.jar;C:\Users\Martina\.m2\repository\org\apiguardian\apiguardian-api\1.0.0\apiguardian-api-1.0.0.jar;C:\Users\Martina\.m2\repository\org\opentest4j\opentest4j\1.1.1\opentest4j-1.1.1.jar;C:\Users\Martina\.m2\repository\org\junit\platform\junit-platform-commons\1.4.0\junit-platform-commons-1.4.0.jar;C:\Users\Martina\.m2\repository\org\junit\jupiter\junit-jupiter-params\5.4.0\junit-jupiter-params-5.4.0.jar;C:\Users\Martina\.m2\repository\org\junit\jupiter\junit-jupiter-engine\5.4.0\junit-jupiter-engine-5.4.0.jar;C:\Users\Martina\.m2\repository\org\junit\platform\junit-platform-engine\1.4.0\junit-platform-engine-1.4.0.jar;"/>
+    <property name="java.vm.vendor" value="Oracle Corporation"/>
+    <property name="sun.arch.data.model" value="64"/>
+    <property name="user.variant" value=""/>
+    <property name="java.vendor.url" value="http://java.oracle.com/"/>
+    <property name="user.timezone" value="Europe/Belgrade"/>
+    <property name="java.vm.specification.version" value="11"/>
+    <property name="os.name" value="Windows 10"/>
+    <property name="sun.java.launcher" value="SUN_STANDARD"/>
+    <property name="user.country" value="HR"/>
+    <property name="sun.boot.library.path" value="C:\jdk-11\bin"/>
+    <property name="sun.java.command" value="C:\Users\Martina\AppData\Local\Temp\surefire14303906609258853387\surefirebooter10497564926840568802.jar C:\Users\Martina\AppData\Local\Temp\surefire14303906609258853387 2019-03-25T13-16-51_169-jvmRun1 surefire14410930204173713290tmp surefire_05104160634369424856tmp"/>
+    <property name="jdk.debug" value="release"/>
+    <property name="surefire.test.class.path" value="C:\opjj\zadace\hw03-0036507308\target\test-classes;C:\opjj\zadace\hw03-0036507308\target\classes;C:\Users\Martina\.m2\repository\org\junit\jupiter\junit-jupiter-api\5.4.0\junit-jupiter-api-5.4.0.jar;C:\Users\Martina\.m2\repository\org\apiguardian\apiguardian-api\1.0.0\apiguardian-api-1.0.0.jar;C:\Users\Martina\.m2\repository\org\opentest4j\opentest4j\1.1.1\opentest4j-1.1.1.jar;C:\Users\Martina\.m2\repository\org\junit\platform\junit-platform-commons\1.4.0\junit-platform-commons-1.4.0.jar;C:\Users\Martina\.m2\repository\org\junit\jupiter\junit-jupiter-params\5.4.0\junit-jupiter-params-5.4.0.jar;C:\Users\Martina\.m2\repository\org\junit\jupiter\junit-jupiter-engine\5.4.0\junit-jupiter-engine-5.4.0.jar;C:\Users\Martina\.m2\repository\org\junit\platform\junit-platform-engine\1.4.0\junit-platform-engine-1.4.0.jar;"/>
+    <property name="sun.cpu.endian" value="little"/>
+    <property name="user.home" value="C:\Users\Martina"/>
+    <property name="user.language" value="hr"/>
+    <property name="java.specification.vendor" value="Oracle Corporation"/>
+    <property name="java.version.date" value="2018-09-25"/>
+    <property name="java.home" value="C:\jdk-11"/>
+    <property name="file.separator" value="\"/>
+    <property name="basedir" value="C:\opjj\zadace\hw03-0036507308"/>
+    <property name="java.vm.compressedOopsMode" value="32-bit"/>
+    <property name="line.separator" value="&#10;"/>
+    <property name="java.specification.name" value="Java Platform API Specification"/>
+    <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
+    <property name="java.awt.graphicsenv" value="sun.awt.Win32GraphicsEnvironment"/>
+    <property name="surefire.real.class.path" value="C:\Users\Martina\AppData\Local\Temp\surefire14303906609258853387\surefirebooter10497564926840568802.jar"/>
+    <property name="user.script" value=""/>
+    <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers"/>
+    <property name="java.runtime.version" value="11+28"/>
+    <property name="user.name" value="Martina"/>
+    <property name="path.separator" value=";"/>
+    <property name="os.version" value="10.0"/>
+    <property name="java.runtime.name" value="OpenJDK Runtime Environment"/>
+    <property name="file.encoding" value="Cp1250"/>
+    <property name="java.vm.name" value="OpenJDK 64-Bit Server VM"/>
+    <property name="java.vendor.version" value="18.9"/>
+    <property name="localRepository" value="C:\Users\Martina\.m2\repository"/>
+    <property name="java.vendor.url.bug" value="http://bugreport.java.com/bugreport/"/>
+    <property name="java.io.tmpdir" value="C:\Users\Martina\AppData\Local\Temp\"/>
+    <property name="java.version" value="11"/>
+    <property name="user.dir" value="C:\opjj\zadace\hw03-0036507308"/>
+    <property name="os.arch" value="amd64"/>
+    <property name="java.vm.specification.name" value="Java Virtual Machine Specification"/>
+    <property name="java.awt.printerjob" value="sun.awt.windows.WPrinterJob"/>
+    <property name="sun.os.patch.level" value=""/>
+    <property name="java.library.path" value="C:\jdk-11\bin;C:\WINDOWS\Sun\Java\bin;C:\WINDOWS\system32;C:\WINDOWS;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Program Files (x86)\NVIDIA Corporation\PhysX\Common;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\MinGW\bin;C:\Program Files\MATLAB\R2016a\runtime\win64;C:\Program Files\MATLAB\R2016a\bin;C:\Program Files\MATLAB\R2016a\polyspace\bin;C:\Program Files\dotnet\;C:\Program Files\Microsoft SQL Server\130\Tools\Binn\;C:\WINDOWS\System32\OpenSSH\;C:\jdk-11\bin;C:\maven\apache-maven-3.6.0\bin;C:\maven\apache-maven-3.6.0\bin;C:\Users\Martina\AppData\Local\Microsoft\WindowsApps;C:\MinGW\bin\;;."/>
+    <property name="java.vendor" value="Oracle Corporation"/>
+    <property name="java.vm.info" value="mixed mode"/>
+    <property name="java.vm.version" value="11+28"/>
+    <property name="sun.io.unicode.encoding" value="UnicodeLittle"/>
+    <property name="java.class.version" value="55.0"/>
+  </properties>
+  <testcase name="testWordStartingWithEscape" classname="hr.fer.zemris.java.hw03.prob1.Prob1Test" time="0">
+    <skipped message="public void hr.fer.zemris.java.hw03.prob1.Prob1Test.testWordStartingWithEscape() is @Disabled"/>
+  </testcase>
+  <testcase name="testTwoWords" classname="hr.fer.zemris.java.hw03.prob1.Prob1Test" time="0">
+    <skipped message="public void hr.fer.zemris.java.hw03.prob1.Prob1Test.testTwoWords() is @Disabled"/>
+  </testcase>
+  <testcase name="testEmpty" classname="hr.fer.zemris.java.hw03.prob1.Prob1Test" time="0">
+    <error type="java.lang.NullPointerException">java.lang.NullPointerException
+	at hr.fer.zemris.java.hw03.prob1.Prob1Test.testEmpty(Prob1Test.java:29)
+</error>
+  </testcase>
+  <testcase name="testSomeSymbols" classname="hr.fer.zemris.java.hw03.prob1.Prob1Test" time="0">
+    <skipped message="public void hr.fer.zemris.java.hw03.prob1.Prob1Test.testSomeSymbols() is @Disabled"/>
+  </testcase>
+  <testcase name="testGetReturnsLastNext" classname="hr.fer.zemris.java.hw03.prob1.Prob1Test" time="0">
+    <error type="java.lang.NullPointerException">java.lang.NullPointerException
+	at hr.fer.zemris.java.hw03.prob1.Prob1Test.testGetReturnsLastNext(Prob1Test.java:38)
+</error>
+  </testcase>
+  <testcase name="testNoActualContent" classname="hr.fer.zemris.java.hw03.prob1.Prob1Test" time="0">
+    <skipped message="public void hr.fer.zemris.java.hw03.prob1.Prob1Test.testNoActualContent() is @Disabled"/>
+  </testcase>
+  <testcase name="testTooBigNumber" classname="hr.fer.zemris.java.hw03.prob1.Prob1Test" time="0">
+    <skipped message="public void hr.fer.zemris.java.hw03.prob1.Prob1Test.testTooBigNumber() is @Disabled"/>
+  </testcase>
+  <testcase name="testRadAfterEOF" classname="hr.fer.zemris.java.hw03.prob1.Prob1Test" time="0">
+    <error type="java.lang.NullPointerException">java.lang.NullPointerException
+	at hr.fer.zemris.java.hw03.prob1.Prob1Test.testRadAfterEOF(Prob1Test.java:49)
+</error>
+  </testcase>
+  <testcase name="testCombinedInput" classname="hr.fer.zemris.java.hw03.prob1.Prob1Test" time="0">
+    <skipped message="public void hr.fer.zemris.java.hw03.prob1.Prob1Test.testCombinedInput() is @Disabled"/>
+  </testcase>
+  <testcase name="testWordWithManyEscapes" classname="hr.fer.zemris.java.hw03.prob1.Prob1Test" time="0">
+    <skipped message="public void hr.fer.zemris.java.hw03.prob1.Prob1Test.testWordWithManyEscapes() is @Disabled"/>
+  </testcase>
+  <testcase name="testSingleEscapedDigit" classname="hr.fer.zemris.java.hw03.prob1.Prob1Test" time="0">
+    <skipped message="public void hr.fer.zemris.java.hw03.prob1.Prob1Test.testSingleEscapedDigit() is @Disabled"/>
+  </testcase>
+  <testcase name="testInvalidEscape" classname="hr.fer.zemris.java.hw03.prob1.Prob1Test" time="0">
+    <skipped message="public void hr.fer.zemris.java.hw03.prob1.Prob1Test.testInvalidEscape() is @Disabled"/>
+  </testcase>
+  <testcase name="testInvalidEscapeEnding" classname="hr.fer.zemris.java.hw03.prob1.Prob1Test" time="0">
+    <skipped message="public void hr.fer.zemris.java.hw03.prob1.Prob1Test.testInvalidEscapeEnding() is @Disabled"/>
+  </testcase>
+  <testcase name="testNullInput" classname="hr.fer.zemris.java.hw03.prob1.Prob1Test" time="0.016"/>
+  <testcase name="testNotNull" classname="hr.fer.zemris.java.hw03.prob1.Prob1Test" time="0">
+    <error type="java.lang.NullPointerException">java.lang.NullPointerException
+	at hr.fer.zemris.java.hw03.prob1.Prob1Test.testNotNull(Prob1Test.java:14)
+</error>
+  </testcase>
+  <testcase name="testTwoNumbers" classname="hr.fer.zemris.java.hw03.prob1.Prob1Test" time="0">
+    <skipped message="public void hr.fer.zemris.java.hw03.prob1.Prob1Test.testTwoNumbers() is @Disabled"/>
+  </testcase>
+  <testcase name="testWordWithManyEscapesAndNumbers" classname="hr.fer.zemris.java.hw03.prob1.Prob1Test" time="0">
+    <skipped message="public void hr.fer.zemris.java.hw03.prob1.Prob1Test.testWordWithManyEscapesAndNumbers() is @Disabled"/>
+  </testcase>
+</testsuite>

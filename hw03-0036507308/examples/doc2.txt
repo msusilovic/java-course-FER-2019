@@ -1,0 +1,4 @@
+{$ for i 2 3$}
+
+ { bla } blu \{$=1$}. nOTHING.
+{$End$}

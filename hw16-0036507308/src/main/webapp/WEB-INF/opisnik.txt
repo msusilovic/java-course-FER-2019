@@ -1,0 +1,60 @@
+bulbasaur.png
+Bulbasaur
+poison, grass
+charizard.png
+Charizard
+flying, fire
+charmander.png
+Charmander
+fire
+cubone.jpg
+Cubone
+ground
+geodude.png
+Geodude
+ground, rock
+jigglypuff.png
+Jigglypuff
+normal, fairy
+kadabra.jpg
+Kadabra
+psychic
+magikarp.png
+Magikarp
+water
+meowth.png
+Meowth
+normal
+mewtwo.png
+Mewtwo
+psychic
+pidgey.png
+Pidgey
+flying, normal
+pikachu.png
+Pikachu
+electic
+psyduck.png
+Psyduck
+water
+rattata.jpg
+Rattata
+normal
+slowpoke.png
+Slowpoke
+psychic, water
+snorlax.jpg
+Snorlax
+normal
+squirtle.png
+Squirtle
+water
+staryu.jpg
+Staryu
+water
+venosaur.jpg
+Venosaur
+grass, poison
+abra.png
+Abra
+psychic
